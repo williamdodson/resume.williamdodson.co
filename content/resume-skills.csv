@@ -1,5 +1,5 @@
 Type,Description
-Graphic,"Adobe CC graphics software (Illustrator, InDesign, and Photoshop)
+Graphic,"Adobe Creative Cloud graphics software (Illustrator, InDesign, and Photoshop)
 Print, Graphic, and Logo Design, Branding, and Illustration
 Prototyping and Interaction Design (Sketch, InVision, Adobe XD)"
 Front-End Development,"HTML
@@ -7,7 +7,7 @@ CSS: Hand-coded, OOCSS, BEM, Responsive Web Design, Sass, LESS
 JavaScript: Plain vanilla (ES5/ES6), jQuery, TypeScript, Node.js/NPM, Gulp/Grunt (task runners)
 Progressive Enhancement and Accessibility (WCAG, WAI-ARIA)
 UI and UX"
-Back End Development,"PHP: WordPress, CodeIgniter, CakePHP
+Back End Development,"PHP: WordPress, Laravel, CodeIgniter, CakePHP
 Ruby: Jekyll, Sinatra, Rack, ERB, RJS, Haml, YAML
 REST/XMLRPC, API Design and Development
 MVC (Model View Controller)

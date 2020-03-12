@@ -12,7 +12,7 @@ const Sidebar = () => (
         }
         return (
           <li key={`content_item_${index}`}>
-            <strong>{data.Title}: <a href={link}>{data.URL}</a></strong>
+            <strong>{data.Title}:</strong> <a href={link}>{data.URL}</a>
           </li>
         )
       })}

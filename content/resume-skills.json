@@ -1,7 +1,7 @@
 [
     {
         "Type": "Graphic",
-        "Description": "Adobe CC graphics software (Illustrator, InDesign, and Photoshop)\nPrint, Graphic, and Logo Design, Branding, and Illustration\nPrototyping and Interaction Design (Sketch, InVision, Adobe XD)"
+        "Description": "Adobe Creative Cloud graphics software (Illustrator, InDesign, and Photoshop)\nPrint, Graphic, and Logo Design, Branding, and Illustration\nPrototyping and Interaction Design (Sketch, InVision, Adobe XD)"
     },
     {
         "Type": "Front-End Development",
@@ -9,6 +9,6 @@
     },
     {
         "Type": "Back End Development",
-        "Description": "PHP: WordPress, CodeIgniter, CakePHP\nRuby: Jekyll, Sinatra, Rack, ERB, RJS, Haml, YAML\nREST/XMLRPC, API Design and Development\nMVC (Model View Controller)\nSQL: MySQL, MSSQL, PostgreSQL\nNoSQL: Redis, CouchDB, MongoDB\nSCM: Git, Mercurial, Subversion, MKS\nUNIX/Linux administration: FreeBSD, Ubuntu, Debian"
+        "Description": "PHP: WordPress, Laravel, CodeIgniter, CakePHP\nRuby: Jekyll, Sinatra, Rack, ERB, RJS, Haml, YAML\nREST/XMLRPC, API Design and Development\nMVC (Model View Controller)\nSQL: MySQL, MSSQL, PostgreSQL\nNoSQL: Redis, CouchDB, MongoDB\nSCM: Git, Mercurial, Subversion, MKS\nUNIX/Linux administration: FreeBSD, Ubuntu, Debian"
     }
 ]

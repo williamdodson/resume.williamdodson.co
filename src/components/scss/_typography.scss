@@ -42,7 +42,20 @@ h3 {
 
 a:link,
 a:visited {
+  background: transparent;
   color: $color-primary;
+  outline: 0.125rem dotted transparent;
+  transition: all ease-in-out 0.3s;
+}
+a:hover,
+a:active {
+  background: #fff;
+  color: $color-black;
+}
+a:focus {
+  background: #fff;
+  color: $color-black;
+  outline: 0.125rem dotted $color-black;
 }
 
 /// Subsection: Custom Classes
@@ -76,5 +89,6 @@ a:visited {
 }
 .banner__subtitle {
   @include fluid-type($min_width, $max_width, 0.875rem, 1.25rem);
+  margin-bottom: 0;
   text-shadow: 0.125rem 0.125rem 0 $color-light-gray;
 }
