@@ -13,3 +13,9 @@ $color-primary: map-get($colors, primary);
 $color-black: map-get($colors, black);
 $color-light-gray: map-get($colors, light-gray);
 $color-white: map-get($colors, white);
+
+// Font size settings for fluid type
+$min_width: 20rem; // 320px
+$max_width: 64rem; // 1024px
+$min_font: 1rem;
+$max_font: 1.25rem;
