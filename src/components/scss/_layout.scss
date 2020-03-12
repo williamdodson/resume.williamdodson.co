@@ -1,0 +1,63 @@
+/// Section: Layout
+//  ======================================================================
+body {
+  background: #fff;
+  padding: 1.5rem;
+}
+@media screen and (min-width: 40rem) {
+  body {
+    padding: 3rem;
+  }
+}
+
+.container {
+  align-content: center;
+  justify-content: center;
+  display: grid;
+  gap: 1rem 3rem;
+  grid-template-areas: 'header header header'
+                       'main main main'
+                       'sidebar sidebar sidebar'
+                       'footer footer footer';
+  grid-template-columns: repeat(3, 1fr);
+  margin: 0 auto;
+  max-width: none;
+}
+@media screen and (min-width: 40rem) {
+  .container {
+    grid-template-areas: 'header header header'
+                         'sidebar main main'
+                         'footer footer footer';
+    max-width: 64rem;
+  }
+}
+/// Subsection: Banner
+//  ======================================================================
+.banner {
+  grid-area: header;
+  margin-bottom: 3rem;
+}
+
+/// Subsection: Main Content
+//  ======================================================================
+.content {
+  grid-area: main;
+}
+
+/// Subsection: Resume Sections
+//  ======================================================================
+.resume-section {
+  border-bottom: 0.125rem dotted $color-light-gray;
+  margin-bottom: 1.5rem;
+}
+
+.contact-info {
+  grid-area: sidebar;
+  width: 100%;
+}
+
+/// Subsection: Footer
+//  ======================================================================
+.copyright {
+  grid-area: footer;
+}

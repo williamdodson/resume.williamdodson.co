@@ -1,0 +1,15 @@
+/// Section: Settings
+//  ======================================================================
+$font-family: 'Roboto Condensed', 'Arial Narrow', sans-serif;
+
+$colors: (
+  primary: #7A568F,
+  black: #1C1A17,
+  light-gray: #e5e3e1,
+  white: #F1F0EF
+);
+
+$color-primary: map-get($colors, primary);
+$color-black: map-get($colors, black);
+$color-light-gray: map-get($colors, light-gray);
+$color-white: map-get($colors, white);

@@ -1,0 +1,79 @@
+[
+    {
+        "Company": "Navy Federal Credit Union",
+        "Title": "UX Developer",
+        "Start Date": "2019",
+        "End Date": "2020",
+        "Description": "Website development on NFO (navyfederal.org) using PHP, Java (Adobe Experience Manager), JavaScript, React, HTML5, CSS3/Sass, and Gulp. Strict ADA testing requirements."
+    },
+    {
+        "Company": "Quality Support, Inc.",
+        "Title": "UI Developer",
+        "Start Date": "2018",
+        "End Date": "2019",
+        "Description": "Application user interface (UI) design and development using JavaScript, AngularJS, HTML5, CSS3/Sass, and Gulp."
+    },
+    {
+        "Company": "Fornetix, Inc.",
+        "Title": "Lead Web Developer",
+        "Start Date": "2017",
+        "End Date": "2018",
+        "Description": "Website user interface (UI) design and development using PHP, WordPress, JavaScript/jQuery, HTML5, CSS3/Sass, Gulp, and Jekyll."
+    },
+    {
+        "Company": "Intersections, Inc.",
+        "Title": "Senior Front-End Developer",
+        "Start Date": "2014",
+        "End Date": "2016",
+        "Description": "Website and application user interface (UI) design, custom theme/plugin development, and JavaScript development using PHP, WordPress, JavaScript/jQuery, HTML5, CSS3/Sass, and JSON/REST API Development. Primarily focused on UI design and JavaScript development on the Identity Guard® product."
+    },
+    {
+        "Company": "NJI Media",
+        "Title": "Front-End Developer",
+        "Start Date": "2013",
+        "End Date": "2013",
+        "Description": "Website and application user interface (UI) design and JavaScript development using PHP, jQuery, HTML5, CSS3, and Adobe graphics programs (Fireworks and Photoshop)."
+    },
+    {
+        "Company": "Symplicity Corporation",
+        "Title": "Front-End Developer",
+        "Start Date": "2011",
+        "End Date": "2012",
+        "Description": "Website and application user interface (UI) design and JavaScript development using PHP, Ruby/Sinatra, ColdFusion, jQuery, HTML5, CSS3, Adobe graphics programs (Fireworks and Photoshop), and OmniGraffle (wireframes)."
+    },
+    {
+        "Company": "Recurly, Inc.",
+        "Title": "Lead Designer",
+        "Start Date": "2009",
+        "End Date": "2010",
+        "Description": "Brand development, Website and application user interface (UI) design, illustration, and graphic design using Ruby/Ruby on Rails, jQuery, HTML5, CSS3, Adobe graphics programs (Fireworks, Photoshop, InDesign, and Illustrator), and OmniGraffle (wireframes)."
+    },
+    {
+        "Company": "Outer Banks Design Works",
+        "Title": "Owner",
+        "Start Date": "2006",
+        "End Date": "2011",
+        "Description": "Brand development, Website and application user interface (UI) and user experience (UX) design, illustration, print design, and graphic design using Ruby/Ruby on Rails, PHP, WordPress, jQuery, XHTML/HTML5, CSS/CSS3, Adobe graphics programs (Fireworks, Photoshop, InDesign, and Illustrator), and OmniGraffle (wireframes)."
+    },
+    {
+        "Company": "Outer Banks Internet, Inc.",
+        "Title": "Web Designer and Developer",
+        "Start Date": "2005",
+        "End Date": "2006",
+        "Description": "Web application design/development and technical support using PHP, JavaScript/jQuery, XHTML/HTML5, CSS/CSS3, and Adobe graphics programs (Fireworks and Photoshop)."
+    },
+    {
+        "Company": "RPG, Inc.",
+        "Title": "Web Designer and Developer",
+        "Start Date": "2004",
+        "End Date": "2005",
+        "Description": "Web application design and development using ColdFusion, JavaScript/Mootools, XHTML, XML, CSS, and Adobe graphics programs (Fireworks and Photoshop)."
+    },
+    {
+        "Company": "CTC, Inc.",
+        "Title": "Web Designer and Developer",
+        "Start Date": "2002",
+        "End Date": "2004",
+        "Description": "Web application design and development using ColdFusion, JavaScript, XHTML, XML, CSS, and Adobe graphics programs (Fireworks and Photoshop). Government contract consultant for US Department of State, ECA, and State Alumni."
+    }
+]
