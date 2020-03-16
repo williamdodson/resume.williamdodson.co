@@ -1,0 +1,127 @@
+/// Section: Print Styles
+//  ======================================================================
+@page { margin: 1.25cm; }
+
+body {
+  background: #fff;
+  color: $color-black;
+  font-family: $font-family;
+  font-size: 9pt;
+  line-height: 1.2;
+  padding: 0;
+}
+
+h2,
+h3 {
+  margin: 0;
+}
+
+p,
+li {
+  margin: 0 0 9pt 0;
+}
+
+a {
+  color: $color-primary;
+  text-decoration: none;
+}
+
+//
+.container {
+  display: table;
+  height: 100%;
+  table-layout: auto;
+  width: 100%;
+}
+
+.banner {
+  margin-bottom: 1.27cm;
+  display: table-row;
+  height: 3cm;
+  width: 100%;
+}
+
+.banner__title {
+  //display: block;
+  font-size: 32pt;
+  font-weight: 500;
+  line-height: 1;
+  margin: 0;
+  //width: 100%;
+}
+.banner__subtitle {
+  //display: block;
+  margin: 0;
+  //width: 100%;
+}
+
+// .content,
+// .contact-info {
+//   display: inline-block;
+// }
+// .content {
+//   width: 66%;
+// }
+// .contact-info {
+//   width: 33%;
+// }
+
+.content {
+  display: table-cell;
+  padding: 0 3% 0 0;
+  vertical-align: top;
+  //width: 60%;
+}
+.contact-info {
+  display: table-cell;
+  //width: 4cm;
+}
+
+.logo-icon {
+  height: auto;
+  margin-bottom: 0;
+  width: 1.25cm;
+}
+
+.resume-section {
+  border-bottom: 2pt dotted $color-light-gray;
+  margin-bottom: 12pt;
+}
+
+.resume-section--experience {
+  page-break-after: always;
+  break-after: always;
+}
+
+.experience-list__title {
+  page-break-after: avoid;
+}
+
+.hanging-indent {
+  margin-left: 0;
+}
+
+.no-bullet {
+  list-style-type: none;
+  margin-left: 0;
+  padding: 0;
+
+  & li {
+    margin-bottom: 9pt;
+  }
+}
+
+.social-links {
+  font-size: 7pt;
+}
+.social-links li {
+  margin-bottom: 0.25cm;
+
+  strong {
+    //display: block;
+  }
+}
+
+.copyright {
+  display: none;
+}
