@@ -5,12 +5,14 @@ $font-family: 'Roboto Condensed', 'Arial Narrow', sans-serif;
 $colors: (
   primary: #7A568F,
   black: #1C1A17,
+  dark-gray: #37332F,
   light-gray: #e5e3e1,
   white: #F1F0EF
 );
 
 $color-primary: map-get($colors, primary);
 $color-black: map-get($colors, black);
+$color-dark-gray: map-get($colors, dark-gray);
 $color-light-gray: map-get($colors, light-gray);
 $color-white: map-get($colors, white);
 

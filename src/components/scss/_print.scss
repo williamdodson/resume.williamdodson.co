@@ -1,0 +1,151 @@
+/// Section: Print Styles
+//  ======================================================================
+@page { margin: 0; }
+@page :footer { color: #fff; }
+@page :header { color: #fff; }
+
+body {
+  background: #fff;
+  color: $color-black;
+  font-family: $font-family;
+  font-size: 9pt;
+  line-height: 1.2;
+  margin: 1.25cm;
+  padding: 0;
+}
+
+h2,
+h3 {
+  margin: 0;
+}
+
+p,
+li {
+  margin: 0 0 9pt 0;
+}
+
+a {
+  color: $color-primary;
+  text-decoration: none;
+}
+
+/// Subsection: Custom Classes
+//  ======================================================================
+.container {
+  display: table;
+  height: 100%;
+  table-layout: auto;
+  width: 100%;
+}
+
+.banner {
+  margin-bottom: 1.27cm;
+  display: table-row;
+  height: 3cm;
+  width: 100%;
+}
+
+.logo-icon {
+  display: inline-block;
+  height: auto;
+  margin-right: 4.5pt;
+  margin-bottom: 0;
+  width: 2cm;
+}
+
+.banner__title {
+  display: inline-block;
+  font-size: 32pt;
+  font-weight: 500;
+  line-height: 1;
+  margin: 0;
+  vertical-align: top;
+
+  &:after {
+    content: attr(data-byline);
+    display: block;
+    font-size: 16pt;
+    height: 16pt;
+    width: 100%;
+  }
+}
+.banner__subtitle {
+  position: absolute !important;
+  height: 1px; width: 1px;
+  overflow: hidden;
+  clip: rect(1px 1px 1px 1px); /* IE 7+ */
+  clip: rect(1px, 1px, 1px, 1px);
+}
+
+.content {
+  display: table-cell;
+  padding: 0 3% 0 0;
+  vertical-align: top;
+}
+.contact-info {
+  display: table-cell;
+}
+
+.resume-section {
+  border-bottom: 2pt dotted $color-light-gray;
+  margin-bottom: 12pt;
+}
+
+.resume-section--experience {
+  page-break-inside: avoid;
+}
+
+.experience-list__title {
+  page-break-after: avoid;
+}
+
+.resume-section--education {
+  break-before: always;
+  margin-top: 1.5cm;
+  page-break-before: always;
+}
+
+.hanging-indent {
+  margin-left: 9pt;
+  padding: 0;
+
+  & li {
+    margin-bottom: 4.5pt;
+  }
+
+  & ul {
+    list-style-type: '‣ ';
+    margin-left: 9pt;
+    margin-bottom: 9pt;
+    padding: 0;
+  }
+}
+
+.no-bullet {
+  list-style-type: none;
+  margin-left: 0;
+  padding: 0;
+
+  & li {
+    margin-bottom: 9pt;
+  }
+}
+
+.social-links {
+  font-size: 7pt;
+}
+.social-links li {
+  margin-bottom: 0.125cm;
+
+  strong {
+    display: block;
+  }
+
+  a {
+    white-space: nowrap;
+  }
+}
+
+.copyright {
+  display: none;
+}

@@ -2,8 +2,10 @@
 //  ======================================================================
 
 .logo-icon {
+  display: block;
   filter: drop-shadow(0.1875rem 0.1875rem 0 $color-light-gray);
+  grid-area: logo;
   height: auto;
   margin-bottom: 0;
-  width: 4.5rem;
+  width: 5.5rem;
 }
