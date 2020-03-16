@@ -3,7 +3,14 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700&display=swap');
 @import 'scss/settings';
 @import 'scss/mixins';
-@import 'scss/reset';
-@import 'scss/layout';
-@import 'scss/typography';
-@import 'scss/images';
+
+@media screen {
+  @import 'scss/reset';
+  @import 'scss/layout';
+  @import 'scss/typography';
+  @import 'scss/images';
+}
+
+@media print {
+  @import 'scss/print';
+}

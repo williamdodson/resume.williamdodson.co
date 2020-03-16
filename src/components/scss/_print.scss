@@ -1,6 +1,8 @@
 /// Section: Print Styles
 //  ======================================================================
-@page { margin: 1.25cm; }
+@page { margin: 0; }
+@page :footer { color: #fff; }
+@page :header { color: #fff; }
 
 body {
   background: #fff;
@@ -8,6 +10,7 @@ body {
   font-family: $font-family;
   font-size: 9pt;
   line-height: 1.2;
+  margin: 1.25cm;
   padding: 0;
 }
 
@@ -26,7 +29,8 @@ a {
   text-decoration: none;
 }
 
-//
+/// Subsection: Custom Classes
+//  ======================================================================
 .container {
   display: table;
   height: 100%;
@@ -41,46 +45,45 @@ a {
   width: 100%;
 }
 
+.logo-icon {
+  display: inline-block;
+  height: auto;
+  margin-right: 4.5pt;
+  margin-bottom: 0;
+  width: 2cm;
+}
+
 .banner__title {
-  //display: block;
+  display: inline-block;
   font-size: 32pt;
   font-weight: 500;
   line-height: 1;
   margin: 0;
-  //width: 100%;
+  vertical-align: top;
+
+  &:after {
+    content: attr(data-byline);
+    display: block;
+    font-size: 16pt;
+    height: 16pt;
+    width: 100%;
+  }
 }
 .banner__subtitle {
-  //display: block;
-  margin: 0;
-  //width: 100%;
+  position: absolute !important;
+  height: 1px; width: 1px;
+  overflow: hidden;
+  clip: rect(1px 1px 1px 1px); /* IE 7+ */
+  clip: rect(1px, 1px, 1px, 1px);
 }
-
-// .content,
-// .contact-info {
-//   display: inline-block;
-// }
-// .content {
-//   width: 66%;
-// }
-// .contact-info {
-//   width: 33%;
-// }
 
 .content {
   display: table-cell;
   padding: 0 3% 0 0;
   vertical-align: top;
-  //width: 60%;
 }
 .contact-info {
   display: table-cell;
-  //width: 4cm;
-}
-
-.logo-icon {
-  height: auto;
-  margin-bottom: 0;
-  width: 1.25cm;
 }
 
 .resume-section {
@@ -89,16 +92,33 @@ a {
 }
 
 .resume-section--experience {
-  page-break-after: always;
-  break-after: always;
+  page-break-inside: avoid;
 }
 
 .experience-list__title {
   page-break-after: avoid;
 }
 
+.resume-section--education {
+  break-before: always;
+  margin-top: 1.5cm;
+  page-break-before: always;
+}
+
 .hanging-indent {
-  margin-left: 0;
+  margin-left: 9pt;
+  padding: 0;
+
+  & li {
+    margin-bottom: 4.5pt;
+  }
+
+  & ul {
+    list-style-type: '‣ ';
+    margin-left: 9pt;
+    margin-bottom: 9pt;
+    padding: 0;
+  }
 }
 
 .no-bullet {
@@ -115,10 +135,14 @@ a {
   font-size: 7pt;
 }
 .social-links li {
-  margin-bottom: 0.25cm;
+  margin-bottom: 0.125cm;
 
   strong {
-    //display: block;
+    display: block;
+  }
+
+  a {
+    white-space: nowrap;
   }
 }
 
