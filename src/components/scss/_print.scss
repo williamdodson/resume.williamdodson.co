@@ -1,5 +1,6 @@
 /// Section: Print Styles
 //  ======================================================================
+
 @page { margin: 0; }
 @page :footer { color: #fff; }
 @page :header { color: #fff; }
@@ -51,6 +52,10 @@ a {
   margin-right: 4.5pt;
   margin-bottom: 0;
   width: 2cm;
+}
+
+.icon {
+  display: none;
 }
 
 .banner__title {

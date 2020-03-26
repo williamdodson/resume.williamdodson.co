@@ -26,11 +26,11 @@ const Layout = ({ children }) => {
   `)
 
   return (
-    <div class="container">
+    <div className="container">
       <Header siteTitle={data.site.siteMetadata.title} subTitle={data.site.siteMetadata.subtitle} />
-      <main class="content">{children}</main>
+      <main className="content">{children}</main>
       <Sidebar />
-      <footer class="copyright">
+      <footer className="copyright">
         ©{new Date().getFullYear()} William Dodson
       </footer>
     </div>

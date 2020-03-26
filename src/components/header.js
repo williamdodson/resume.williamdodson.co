@@ -3,10 +3,10 @@ import PropTypes from "prop-types"
 import React from "react"
 
 const Header = ({ siteTitle, subTitle }) => (
-  <header class="banner">
-    <img alt="" class="logo-icon" src={'./william-dodson-icon.svg'} role="presentation" />
-    <h1 class="banner__title" data-byline={subTitle}>{siteTitle}</h1>
-    <p class="banner__subtitle">{subTitle}</p>
+  <header className="banner">
+    <img alt="" className="logo-icon" src={'./william-dodson-icon.svg'} role="presentation" />
+    <h1 className="banner__title" data-byline={subTitle}>{siteTitle}</h1>
+    <p className="banner__subtitle">{subTitle}</p>
   </header>
 )
 

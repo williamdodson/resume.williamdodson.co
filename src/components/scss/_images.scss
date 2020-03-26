@@ -9,3 +9,16 @@
   margin-bottom: 0;
   width: 5.5rem;
 }
+
+.icon {
+  height: 1.5rem;
+  stroke: $color-black;
+  margin-right: 0.5rem;
+  vertical-align: middle;
+  width: 1.5rem;
+  transition: all 0.3s ease-in-out;
+}
+
+// a:hover .icon {
+//   stroke: lighten($color-black, 28);
+// }

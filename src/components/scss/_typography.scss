@@ -9,7 +9,6 @@ body {
   color: $color-black;
   font-family: $font-family;
   line-height: 1.5;
-  transition: all ease-in-out 0.3s;
 }
 
 h1,
@@ -82,7 +81,9 @@ a:focus {
   font-size: 0.875rem;
 
   & li {
-    margin-bottom: 0;
+    border-bottom: 0.125rem dotted $color-light-gray;
+    margin-bottom: 0.125rem;
+    padding-bottom: 0.125rem;
   }
 }
 
