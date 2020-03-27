@@ -11,6 +11,7 @@ html {
 
   &:before {
     background: $color-primary;
+    box-shadow: 0 0.1875rem 0 rgba($color-dark-gray, 0.1);
     content: '';
     display: block;
     height: 0.5rem;

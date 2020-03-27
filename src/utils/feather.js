@@ -17,6 +17,7 @@ const FeatherIcon = ({ name, color, size, cssClass, ...restProps }) => (
     strokeLinejoin="round"
     {...restProps}
   >
+    <title>{name} icon</title>
     <use xlinkHref={`${featherSprite}#${name}`} />
   </svg>
 )

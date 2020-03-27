@@ -2,18 +2,6 @@ import React from "react"
 import SocialLinks from "../../content/social-links.json"
 import FeatherIcon from "../utils/feather";
 
-// const iconStyles = css`
-//   opacity: 0.5;
-//   transition: opacity 0.15s ease-in;
-//   transition: color 0.15s ease-in;
-//   &:hover {
-//     text-decoration: none;
-//     box-shadow: none;
-//     opacity: 1;
-//     transition: opacity 0.15s ease-in;
-//   }
-// `;
-
 const Sidebar = () => (
   <aside className="contact-info">
     <ul className="social-links">
@@ -35,11 +23,12 @@ const Sidebar = () => (
         return (
           <li key={`content_item_${index}`}>
             <strong className="sr-only">{data.Title}: </strong>
-            <a href={link}>
+            <a href={link} aria-label={data.Title}>
               <FeatherIcon
                 name={iconName}
                 color="#1C1A17"
-                cssClass="icon" />
+                cssClass="icon"
+                aria-hidden="true" />
               {data.URL}
             </a>
           </li>
