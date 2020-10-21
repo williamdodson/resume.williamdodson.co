@@ -9,6 +9,7 @@ const FeatherIcon = ({ name, color, size, cssClass, ...restProps }) => (
     className={cssClass}
     width={size}
     height={size}
+    focusable="false"
     viewBox="0 0 24 24"
     fill="none"
     stroke={color}

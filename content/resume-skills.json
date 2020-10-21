@@ -10,5 +10,9 @@
     {
         "Type": "Back End Development",
         "Description": "PHP: WordPress, Laravel, CodeIgniter, CakePHP\nRuby: Jekyll, Sinatra, Rack, ERB, RJS, Haml, YAML\nREST/XMLRPC, API Design and Development\nMVC (Model View Controller)\nSQL: MySQL, MSSQL, PostgreSQL\nNoSQL: Redis, CouchDB, MongoDB\nSCM: Git, Mercurial, Subversion, MKS\nUNIX/Linux administration: FreeBSD, Ubuntu, Debian"
+    },
+    {
+        "Type": "Accessibility",
+        "Description": "WCAG 2.0/2.1 A/AA Success Criterion\nARC Toolkit\naXe\nWAVE\nJAWS, JAWS Inspect, and ZoomText\nNVDA\nVoiceOver"
     }
 ]

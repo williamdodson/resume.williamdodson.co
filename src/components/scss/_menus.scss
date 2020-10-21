@@ -1,0 +1,41 @@
+/// Section: Menus
+//  ======================================================================
+
+.menu-main__link {
+  background: transparent;
+  //border-bottom: 0.125rem solid $color-primary;
+  color: $color-black;
+  display: block;
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  transition: all 0.2s ease-in-out;
+  width: 100%;
+
+  &:after {
+    background: $color-primary;
+    bottom: 0;
+    content: '';
+    display: block;
+    height: 0.125rem;
+    position: absolute;
+    transform: scaleX(1);
+    transition: all 0.2s ease-in-out;
+    width: 100%;
+  }
+
+  &:hover {
+    &:after {
+      transform: scaleX(0);
+    }
+  }
+  &:focus {
+    background: #fff;
+    outline: 0.125rem dotted $color-black;
+
+    &:after {
+      transform: scaleX(0);
+    }
+  }
+}

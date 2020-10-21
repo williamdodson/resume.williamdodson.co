@@ -2,7 +2,13 @@
 //  ======================================================================
 html {
   height: 100vh;
+  scroll-behavior: smooth;
   width: 100vw;
+}
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
 }
 
 html {
@@ -61,15 +67,36 @@ body {
   display: grid;
   gap: 0 1rem;
   grid-area: header;
-  grid-template-areas: 'logo title'
-                       'logo subtitle';
-  grid-template-columns: 5.5rem 1fr;
+  grid-template-areas: 'logo title menu'
+                       'logo subtitle menu';
+  grid-template-columns: 5.5rem repeat(2, 1fr);
   grid-template-rows: repeat(2, 1fr);
   margin-bottom: 0;
 }
 @media screen and (min-width: 64rem) {
   .banner {
     margin-bottom: 1.5rem;
+  }
+}
+
+.menu-main {
+  grid-area: menu;
+}
+.menu-main__items {
+  align-items: stretch;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+.menu-main__item {
+  flex-grow: 1;
+  margin-right: 0.5rem;
+
+  &:last-child {
+    margin-right: 0;
   }
 }
 

@@ -2,8 +2,8 @@ import React from "react"
 import JSONResumeHistory from "../../content/resume-job-history.json"
 
 const SectionExperience = () => (
-  <section className="resume-section resume-section--experience" id="section-experience">
-    <h2>Experience</h2>
+  <section className="resume-section resume-section--experience" id="section-experience" tabIndex="-1" aria-labelledby="heading-section-experience">
+    <h2 id="heading-section-experience">Experience</h2>
     <ul className="no-bullet experience-list">
       {JSONResumeHistory.map((data, index) => {
         let startDate = data['Start Date'];

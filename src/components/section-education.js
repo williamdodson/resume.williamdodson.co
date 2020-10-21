@@ -2,8 +2,8 @@ import React from "react"
 import JSONResumeEducation from "../../content/resume-education.json"
 
 const SectionEducation = () => (
-  <section className="resume-section resume-section--education" id="section-education">
-    <h2>Education <span className="ampersand-subtle">&amp;</span> Acknowledgements</h2>
+  <section className="resume-section resume-section--education" id="section-education" tabIndex="-1" aria-labelledby="heading-section-education">
+    <h2 id="heading-section-education">Education <span className="ampersand-subtle">&amp;</span> Acknowledgements</h2>
     <ul className="hanging-indent">
       {JSONResumeEducation.map((data, index) => {
         return (

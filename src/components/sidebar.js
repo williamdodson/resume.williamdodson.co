@@ -22,8 +22,8 @@ const Sidebar = () => (
         }
         return (
           <li key={`content_item_${index}`}>
-            <strong className="sr-only">{data.Title}: </strong>
-            <a href={link} aria-label={data.Title}>
+            <span className="contact-info__title sr-only">{data.Title}: </span>
+            <a href={link}>
               <FeatherIcon
                 name={iconName}
                 color="#1C1A17"
