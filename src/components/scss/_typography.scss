@@ -71,13 +71,11 @@ h3 {
 
 /// Subsection: Banner
 //  ======================================================================
-.banner__title {
-  grid-area: title;
+.banner__heading {
   text-shadow: 0.1875rem 0.1875rem 0 $color-light-gray;
 }
-.banner__subtitle {
+.banner__subheading {
   @include fluid-type($min_width, $max_width, 0.875rem, 1.25rem);
-  grid-area: subtitle;
   margin-bottom: 0;
   text-shadow: 0.125rem 0.125rem 0 $color-light-gray;
 }
