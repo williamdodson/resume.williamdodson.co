@@ -8,7 +8,7 @@ const Header = ({ siteTitle, subTitle }) => (
     <h1 className="banner__title" data-byline={subTitle}>{siteTitle}</h1>
     <p className="banner__subtitle">{subTitle}</p>
 
-    {/*<nav className="menu-main">
+    {/*<nav className="menu-main" aria-label="Main menu">
       <ul className="menu-main__items">
         <li className="menu-main__item">
           <a className="menu-main__link" href="#section-profile">Profile</a>
@@ -23,7 +23,7 @@ const Header = ({ siteTitle, subTitle }) => (
           <a className="menu-main__link" href="#section-skills">Skills</a>
         </li>
       </ul>
-    </nav>*/}
+</nav>*/}
   </header>
 )
 

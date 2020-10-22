@@ -68,19 +68,5 @@
         "Start Date": "2005",
         "End Date": "2006",
         "Description": "Web application design/development and technical support using PHP, JavaScript/jQuery, XHTML/HTML5, CSS/CSS3, and Adobe graphics programs (Fireworks and Photoshop)."
-    },
-    {
-        "Company": "RPG, Inc.",
-        "Title": "Web Designer and Developer",
-        "Start Date": "2004",
-        "End Date": "2005",
-        "Description": "Web application design and development using ColdFusion, JavaScript/Mootools, XHTML, XML, CSS, and Adobe graphics programs (Fireworks and Photoshop)."
-    },
-    {
-        "Company": "CTC, Inc.",
-        "Title": "Web Designer and Developer",
-        "Start Date": "2002",
-        "End Date": "2004",
-        "Description": "Web application design and development using ColdFusion, JavaScript, XHTML, XML, CSS, and Adobe graphics programs (Fireworks and Photoshop). Government contract consultant for US Department of State, ECA, and State Alumni."
     }
 ]
