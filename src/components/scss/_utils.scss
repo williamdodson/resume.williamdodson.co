@@ -1,6 +1,35 @@
 /// Section: Utility Classes
 //  ======================================================================
 
+.link__skip-nav {
+	background: $color-dark-gray;
+	border-bottom-right-radius: 0.25rem;
+	clip: rect(1px, 1px, 1px, 1px);
+	color: $color-white;
+	font-weight: 700;
+	height: 1px;
+	overflow: hidden;
+	padding: 0;
+	position: absolute;
+	white-space: nowrap;
+	width: 1px;
+	z-index: 3;
+
+	&:focus {
+		clip: auto;
+		display: inline-block;
+		height: 1.5rem;
+		left: 0;
+		outline: none;
+		overflow: auto;
+		padding: 0 0.75rem;
+		position: absolute;
+		text-align: center;
+		top: 0;
+    width: 9.5rem;
+	}
+}
+
 .sr-only {
   border: 0 !important;
 	clip: rect(1px, 1px, 1px, 1px) !important;
