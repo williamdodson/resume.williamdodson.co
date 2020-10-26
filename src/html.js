@@ -26,13 +26,17 @@ export default function HTML(props) {
             __html: `
             document.getElementById('top').addEventListener('click', function(e) {
               e.preventDefault();
-              var target = document.getElementById('main-content');
-              target.setAttribute('tabindex', '-1');
-              target.focus();
-            });
+              const main_content = document.getElementById(this.href.split('#')[1]);
 
-            document.getElementById('main-content').addEventListener('blur', function(e) {
-              this.removeAttribute('tabindex');
+              if(main_content) {
+                console.log('Yo');
+                main_content.setAttribute('tabindex', '-1');
+                main_content.addEventListener('blur', function(e) {
+                  this.removeAttribute('tabindex');
+                });
+                main_content.focus();
+                main_content.scrollIntoView();
+              }
             });
             `,
           }}
