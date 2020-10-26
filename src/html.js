@@ -29,7 +29,6 @@ export default function HTML(props) {
               const main_content = document.getElementById(this.href.split('#')[1]);
 
               if(main_content) {
-                console.log('Yo');
                 main_content.setAttribute('tabindex', '-1');
                 main_content.addEventListener('blur', function(e) {
                   this.removeAttribute('tabindex');
