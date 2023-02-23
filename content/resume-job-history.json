@@ -1,5 +1,12 @@
 [
     {
+        "Company": "Level Access",
+        "Title": "Accessibility Consultant",
+        "Start Date": "2020",
+        "End Date": "2023",
+        "Description": "Accessibility testing and auditing for several major US and CA clients, using JAWS, JAWS Inspect, ZoomText, NVDA, VoiceOver, and TalkBack to test against WCAG 2.x A/AA Success Criterion. Manual and automated testing suite included AMP (Accessibility Management Platform), manual code inspection using browser development tools, and other internal proprietary tools. Authoring of Accessibility Conformance Reports (ACRs) using Level Access and client-specific Voluntary Product Accessibility Templates (VPATs)."
+    },
+    {
         "Company": "The Paciello Group",
         "Title": "Accessibility Engineer",
         "Start Date": "2020",
@@ -61,12 +68,5 @@
         "Start Date": "2006",
         "End Date": "2011",
         "Description": "Brand development, Website and application user interface (UI) and user experience (UX) design, illustration, print design, and graphic design using Ruby/Ruby on Rails, PHP, WordPress, jQuery, XHTML/HTML5, CSS/CSS3, Adobe graphics programs (Fireworks, Photoshop, InDesign, and Illustrator), and OmniGraffle (wireframes)."
-    },
-    {
-        "Company": "Outer Banks Internet, Inc.",
-        "Title": "Web Designer and Developer",
-        "Start Date": "2005",
-        "End Date": "2006",
-        "Description": "Web application design/development and technical support using PHP, JavaScript/jQuery, XHTML/HTML5, CSS/CSS3, and Adobe graphics programs (Fireworks and Photoshop)."
     }
 ]

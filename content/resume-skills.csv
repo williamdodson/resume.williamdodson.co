@@ -15,10 +15,11 @@ SQL: MySQL, MSSQL, PostgreSQL
 NoSQL: Redis, CouchDB, MongoDB
 SCM: Git, Mercurial, Subversion, MKS
 UNIX/Linux administration: FreeBSD, Ubuntu, Debian"
-Accessibility,"WCAG 2.0/2.1 A/AA Success Criterion
+Accessibility,"WCAG 2.x A/AA Success Criterion
 ARC Toolkit
 aXe
 WAVE
 JAWS, JAWS Inspect, and ZoomText
 NVDA
-VoiceOver"
+iOS VoiceOver
+Android TalkBack"
