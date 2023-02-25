@@ -1,10 +1,10 @@
 [
     {
-        "Description": "N.A.P.E. Engineering Courses, Basic Electricity and Electrical Maintenance",
-        "Date": "1991"
+        "description": "N.A.P.E. Engineering Courses, Basic Electricity and Electrical Maintenance",
+        "date": 1991
     },
     {
-        "Description": "Technical reviewer for “Sass and Compass in Action” by Wynn Netherland, Nathan Weizenbaum, Chris Eppstein, and Brandon Mathis, from Manning Publications Co. (ISBN: 9781617290145)",
-        "Date": "2013"
+        "description": "Technical reviewer for “Sass and Compass in Action” by Wynn Netherland, Nathan Weizenbaum, Chris Eppstein, and Brandon Mathis, from Manning Publications Co. (ISBN: 9781617290145)",
+        "date": 2013
     }
 ]

@@ -8,7 +8,7 @@ const SectionEducation = () => (
       {JSONResumeEducation.map((data, index) => {
         return (
           <li key={`content_item_${index}`}>
-            {data.Description}, {data.Date}
+            {data.description}, {data.date}
           </li>
         )
       })}

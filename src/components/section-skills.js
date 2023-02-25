@@ -7,7 +7,7 @@ const SectionSkills = () => (
     <h2 id="heading-section-skills">Skills</h2>
     <ul className="hanging-indent">
       {JSONResumeSkills.map((data, index) => {
-        let descriptions = data.Description.split('\n');
+        let descriptions = data.description.split('\n');
         let descList = `<ul>`;
         descriptions.forEach((item) => {
           descList += `<li>${item}</li>`;
@@ -15,7 +15,7 @@ const SectionSkills = () => (
         descList += `</ul>`;
         return (
           <li key={`content_item_${index}`}>
-            <h3>{data.Type}:</h3>
+            <h3>{data.type}:</h3>
             {ReactHtmlParser (descList)}
           </li>
         )

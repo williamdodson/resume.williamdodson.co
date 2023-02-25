@@ -11,7 +11,7 @@ const SectionExperience = () => (
         let dateString = startDate === endDate ? startDate : `${startDate}–${endDate}`
         return (
           <li className="experience-list__item" key={`content_item_${index}`}>
-            <h3 className="experience-list__title">{data.title}, {data.company}: <time dateTime={startDate}>{dateString}</time>^</h3>
+            <h3 className="experience-list__title">{data.title}, {data.company}: <time dateTime={startDate}>{dateString}</time></h3>
             <p className="experience-list__description">{data.description}</p>
           </li>
         )

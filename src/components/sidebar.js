@@ -7,30 +7,30 @@ const Sidebar = () => (
     <nav aria-label="Contact and social media menu">
       <ul className="social-links">
         {SocialLinks.map((data, index) => {
-          let link = data.URL;
-          let iconName = data.Title.toLowerCase();
+          let link = data.url;
+          let iconName = data.title.toLowerCase();
 
-          if(data.Title === 'Web') {
+          if(data.title === 'Web') {
             iconName = 'globe';
           }
 
-          if (data.Title === 'GitHub Gists') {
+          if (data.title === 'GitHub Gists') {
             iconName = 'github';
           }
 
-          if (data.Title === 'Phone') {
-            link = `tel:+1${data.URL.split('-').join('')}`;
+          if (data.title === 'Phone') {
+            link = `tel:+1${data.url.split('-').join('')}`;
           }
           return (
             <li key={`content_item_${index}`}>
-              <span className="contact-info__title sr-only">{data.Title}: </span>
+              <span className="contact-info__title sr-only">{data.title}: </span>
               <a href={link}>
                 <FeatherIcon
                   name={iconName}
                   color="#1C1A17"
                   cssClass="icon"
                   aria-hidden="true" />
-                {data.URL}
+                {data.url}
               </a>
             </li>
           )

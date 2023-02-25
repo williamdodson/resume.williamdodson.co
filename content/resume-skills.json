@@ -1,18 +1,18 @@
 [
     {
-        "Type": "Graphic",
-        "Description": "Adobe Creative Cloud graphics software (Illustrator, InDesign, and Photoshop)\nPrint, Graphic, and Logo Design, Branding, and Illustration\nPrototyping and Interaction Design (Sketch, InVision, Adobe XD)"
+        "type": "Graphic",
+        "description": "Adobe Creative Cloud graphics software (Illustrator, InDesign, and Photoshop)\n Print, Graphic, and Logo Design, Branding, and Illustration\n Prototyping and Interaction Design (Sketch, InVision, Adobe XD)"
     },
     {
-        "Type": "Front-End Development",
-        "Description": "HTML\nCSS: Hand-coded, OOCSS, BEM, Responsive Web Design, Sass, LESS\nJavaScript: Plain vanilla (ES5/ES6), jQuery, TypeScript, Node.js/NPM, Gulp/Grunt (task runners)\nProgressive Enhancement and Accessibility (WCAG, WAI-ARIA)\nUI and UX"
+        "type": "Front-End Development",
+        "description": "HTML\n CSS: Hand-coded, OOCSS, BEM, Responsive Web Design, Sass, LESS\n JavaScript: Plain vanilla (ES5/ES6), jQuery, TypeScript, Node.js/NPM, Gulp/Grunt (task runners)\n Progressive Enhancement and Accessibility (WCAG, WAI-ARIA)\n UI and UX"
     },
     {
-        "Type": "Back End Development",
-        "Description": "PHP: WordPress, Laravel, CodeIgniter, CakePHP\nRuby: Jekyll, Sinatra, Rack, ERB, RJS, Haml, YAML\nREST/XMLRPC, API Design and Development\nMVC (Model View Controller)\nSQL: MySQL, MSSQL, PostgreSQL\nNoSQL: Redis, CouchDB, MongoDB\nSCM: Git, Mercurial, Subversion, MKS\nUNIX/Linux administration: FreeBSD, Ubuntu, Debian"
+        "type": "Back End Development",
+        "description": "PHP: WordPress, Laravel, CodeIgniter, CakePHP\n Ruby: Jekyll, Sinatra, Rack, ERB, RJS, Haml, YAML\n REST/XMLRPC, API Design and Development\n MVC (Model View Controller)\n SQL: MySQL, MSSQL, PostgreSQL\n NoSQL: Redis, CouchDB, MongoDB\n SCM: Git, Mercurial, Subversion, MKS\n UNIX/Linux administration: FreeBSD, Ubuntu, Debian"
     },
     {
-        "Type": "Accessibility",
-        "Description": "WCAG 2.x A/AA Success Criterion\nAccessibility Conformance Reports (ACRs)/Voluntary Product Accessibility Templates (VPATs)\nARC Toolkit\naXe\nWAVE\nJAWS, JAWS Inspect, and ZoomText\nNVDA\niOS VoiceOver\nAndroid TalkBack"
+        "type": "Accessibility",
+        "description": "WCAG 2.0/2.1 A/AA Success Criterion\n Accessibility Conformance Reports (ACRs)/Voluntary Product Accessibility Templates (VPATs)\n ARC Toolkit\n aXe\n WAVE\n JAWS, JAWS Inspect, and ZoomText\n NVDA\n VoiceOver"
     }
 ]
