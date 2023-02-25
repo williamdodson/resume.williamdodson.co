@@ -6,13 +6,13 @@ const SectionExperience = () => (
     <h2 id="heading-section-experience">Experience</h2>
     <ul className="no-bullet experience-list">
       {JSONResumeHistory.map((data, index) => {
-        let startDate = data['Start Date'];
-        let endDate = data['End Date'];
+        let startDate = data['startDate'];
+        let endDate = data['endDate'];
         let dateString = startDate === endDate ? startDate : `${startDate}–${endDate}`
         return (
           <li className="experience-list__item" key={`content_item_${index}`}>
-            <h3 className="experience-list__title">{data.Title}, {data.Company}: <time dateTime={startDate}>{dateString}</time></h3>
-            <p className="experience-list__description">{data.Description}</p>
+            <h3 className="experience-list__title">{data.title}, {data.company}: <time dateTime={startDate}>{dateString}</time>^</h3>
+            <p className="experience-list__description">{data.description}</p>
           </li>
         )
       })}

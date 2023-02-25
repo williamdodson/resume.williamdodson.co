@@ -1,72 +1,79 @@
 [
     {
-        "Company": "Level Access",
-        "Title": "Accessibility Consultant",
-        "Start Date": "2020",
-        "End Date": "2023",
-        "Description": "Accessibility testing and auditing for several major US and CA clients, using JAWS, JAWS Inspect, ZoomText, NVDA, VoiceOver, and TalkBack to test against WCAG 2.x A/AA Success Criterion. Manual and automated testing suite included AMP (Accessibility Management Platform), manual code inspection using browser development tools, and other internal proprietary tools. Authoring of Accessibility Conformance Reports (ACRs) using Level Access and client-specific Voluntary Product Accessibility Templates (VPATs)."
+        "company": "Level Access",
+        "title": "Senior Accessibility Consultant",
+        "startDate": 2020,
+        "endDate": 2023,
+        "description": "Accessibility testing and auditing for several major US and CA clients, using JAWS, JAWS Inspect, ZoomText, NVDA, VoiceOver, and TalkBack to test against WCAG 2.x A/AA Success Criterion. Manual and automated testing suite included AMP (Accessibility Management Platform), manual code inspection using browser development tools, and other internal proprietary tools. Authoring of Accessibility Conformance Reports (ACRs) using Level Access and client-specific Voluntary Product Accessibility Templates (VPATs)."
     },
     {
-        "Company": "The Paciello Group",
-        "Title": "Accessibility Engineer",
-        "Start Date": "2020",
-        "End Date": "2020",
-        "Description": "Accessibility testing and auditing for several major US and CA clients using JAWS, JAWS Inspect, ZoomText, NVDA, and VoiceOver to test against WCAG 2.0/2.1 A/AA Success Criterion. Manual and automated testing suite included ARC Toolkit, axe, Colour Contrast Analyser, and internal proprietary tools. Worked on the marketing website providing major updates to a custom WordPress installation using Advanced Custom Fields (ACF), JavaScript, Google Analytics, HubSpot integrations, CSS3/Sass, and PHP. The marketing website also required strict WCAG 2.1 AA testing requirements."
+        "company": "The Paciello Group",
+        "title": "Accessibility Engineer",
+        "startDate": 2020,
+        "endDate": 2020,
+        "description": "Accessibility testing and auditing for several major US and CA clients, using JAWS, JAWS Inspect, ZoomText, NVDA, and VoiceOver to test against WCAG 2.0/2.1 A/AA Success Criterion. Manual and automated testing suite included ARC Toolkit, aXe, Colour Contrast Analyser, and internal proprietary tools. Worked on the marketing website providing major updates to a custom WordPress installation using Advanced Custom Fields (ACF), JavaScript, Google Analytics, HubSpot integrations, CSS3/Sass, and PHP. The marketing website also required strict WCAG 2.1 AA testing requirements."
     },
     {
-        "Company": "Navy Federal Credit Union",
-        "Title": "UX Developer",
-        "Start Date": "2019",
-        "End Date": "2020",
-        "Description": "Website development on NFO (navyfederal.org) using PHP, Java (Adobe Experience Manager), JavaScript, React, HTML5, CSS3/Sass, and Gulp. Strict ADA testing requirements."
+        "company": "Navy Federal Credit Union",
+        "title": "UX Developer",
+        "startDate": 2019,
+        "endDate": 2020,
+        "description": "Website development on NFO (navyfederal.org) using PHP, Java (Adobe Experience Manager), JavaScript, React, HTML5, CSS3/Sass, and Gulp. Strict ADA testing requirements."
     },
     {
-        "Company": "Quality Support, Inc.",
-        "Title": "UI Developer",
-        "Start Date": "2018",
-        "End Date": "2019",
-        "Description": "Application user interface (UI) design and development using JavaScript, AngularJS, HTML5, CSS3/Sass, and Gulp."
+        "company": "Quality Support, Inc.",
+        "title": "UI Developer",
+        "startDate": 2018,
+        "endDate": 2019,
+        "description": "Application user interface (UI) design and development using JavaScript, AngularJS, HTML5, CSS3/Sass, and Gulp."
     },
     {
-        "Company": "Fornetix, Inc.",
-        "Title": "Lead Web Developer",
-        "Start Date": "2017",
-        "End Date": "2018",
-        "Description": "Website user interface (UI) design and development using PHP, WordPress, JavaScript/jQuery, HTML5, CSS3/Sass, Gulp, and Jekyll."
+        "company": "Fornetix, Inc.",
+        "title": "Lead Web Developer",
+        "startDate": 2017,
+        "endDate": 2018,
+        "description": "Website user interface (UI) design and development using PHP, WordPress, JavaScript/jQuery, HTML5, CSS3/Sass, Gulp, and Jekyll."
     },
     {
-        "Company": "Intersections, Inc.",
-        "Title": "Senior Front-End Developer",
-        "Start Date": "2014",
-        "End Date": "2016",
-        "Description": "Website and application user interface (UI) design, custom theme/plugin development, and JavaScript development using PHP, WordPress, JavaScript/jQuery, HTML5, CSS3/Sass, and JSON/REST API Development. Primarily focused on UI design and JavaScript development on the Identity Guard® product."
+        "company": "Intersections, Inc.",
+        "title": "Senior Front-End Developer",
+        "startDate": 2014,
+        "endDate": 2016,
+        "description": "Website and application user interface (UI) design, custom theme/plugin development, and JavaScript development using PHP, WordPress, JavaScript/jQuery, HTML5, CSS3/Sass, and JSON/REST API Development. Primarily focused on UI design and JavaScript development on the Identity Guard® product."
     },
     {
-        "Company": "NJI Media",
-        "Title": "Front-End Developer",
-        "Start Date": "2013",
-        "End Date": "2013",
-        "Description": "Website and application user interface (UI) design and JavaScript development using PHP, jQuery, HTML5, CSS3, and Adobe graphics programs (Fireworks and Photoshop)."
+        "company": "NJI Media",
+        "title": "Front-End Developer",
+        "startDate": 2013,
+        "endDate": 2013,
+        "description": "Website and application user interface (UI) design and JavaScript development using PHP, jQuery, HTML5, CSS3, and Adobe graphics programs (Fireworks and Photoshop)."
     },
     {
-        "Company": "Symplicity Corporation",
-        "Title": "Front-End Developer",
-        "Start Date": "2011",
-        "End Date": "2012",
-        "Description": "Website and application user interface (UI) design and JavaScript development using PHP, Ruby/Sinatra, ColdFusion, jQuery, HTML5, CSS3, Adobe graphics programs (Fireworks and Photoshop), and OmniGraffle (wireframes)."
+        "company": "Symplicity Corporation",
+        "title": "Front-End Developer",
+        "startDate": 2011,
+        "endDate": 2012,
+        "description": "Website and application user interface (UI) design and JavaScript development using PHP, Ruby/Sinatra, ColdFusion, jQuery, HTML5, CSS3, Adobe graphics programs (Fireworks and Photoshop), and OmniGraffle (wireframes)."
     },
     {
-        "Company": "Recurly, Inc.",
-        "Title": "Lead Designer",
-        "Start Date": "2009",
-        "End Date": "2010",
-        "Description": "Brand development, Website and application user interface (UI) design, illustration, and graphic design using Ruby/Ruby on Rails, jQuery, HTML5, CSS3, Adobe graphics programs (Fireworks, Photoshop, InDesign, and Illustrator), and OmniGraffle (wireframes)."
+        "company": "Recurly, Inc.",
+        "title": "Lead Designer",
+        "startDate": 2009,
+        "endDate": 2010,
+        "description": "Brand development, Website and application user interface (UI) design, illustration, and graphic design using Ruby/Ruby on Rails, jQuery, HTML5, CSS3, Adobe graphics programs (Fireworks, Photoshop, InDesign, and Illustrator), and OmniGraffle (wireframes)."
     },
     {
-        "Company": "Outer Banks Design Works",
-        "Title": "Owner",
-        "Start Date": "2006",
-        "End Date": "2011",
-        "Description": "Brand development, Website and application user interface (UI) and user experience (UX) design, illustration, print design, and graphic design using Ruby/Ruby on Rails, PHP, WordPress, jQuery, XHTML/HTML5, CSS/CSS3, Adobe graphics programs (Fireworks, Photoshop, InDesign, and Illustrator), and OmniGraffle (wireframes)."
+        "company": "Outer Banks Design Works",
+        "title": "Owner",
+        "startDate": 2006,
+        "endDate": 2011,
+        "description": "Brand development, Website and application user interface (UI) and user experience (UX) design, illustration, print design, and graphic design using Ruby/Ruby on Rails, PHP, WordPress, jQuery, XHTML/HTML5, CSS/CSS3, Adobe graphics programs (Fireworks, Photoshop, InDesign, and Illustrator), and OmniGraffle (wireframes)."
+    },
+    {
+        "company": "Outer Banks Internet, Inc.",
+        "title": "Web Designer and Developer",
+        "startDate": 2005,
+        "endDate": 2006,
+        "description": "Web application design/development and technical support using PHP, JavaScript/jQuery, XHTML/HTML5, CSS/CSS3, and Adobe graphics programs (Fireworks and Photoshop)."
     }
 ]
