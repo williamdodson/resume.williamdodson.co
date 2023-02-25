@@ -13,6 +13,6 @@
     },
     {
         "Type": "Accessibility",
-        "Description": "WCAG 2.x A/AA Success Criterion\nARC Toolkit\naXe\nWAVE\nJAWS, JAWS Inspect, and ZoomText\nNVDA\niOS VoiceOver\nAndroid TalkBack"
+        "Description": "WCAG 2.x A/AA Success Criterion\nAccessibility Conformance Reports (ACRs)/Voluntary Product Accessibility Templates (VPATs)\nARC Toolkit\naXe\nWAVE\nJAWS, JAWS Inspect, and ZoomText\nNVDA\niOS VoiceOver\nAndroid TalkBack"
     }
 ]
