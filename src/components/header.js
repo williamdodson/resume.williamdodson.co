@@ -1,9 +1,11 @@
 import PropTypes from "prop-types"
 import React from "react"
 
+import logoSVG from '../images/william-dodson-icon.svg'
+
 const Header = ({ siteTitle, subTitle }) => (
   <header className="banner">
-    <img alt="" className="logo-icon" src={'./william-dodson-icon.svg'} />
+    <img alt="" className="logo-icon" src={logoSVG} />
     <div className="banner__title">
       <h1 className="banner__heading" data-byline={subTitle}>{siteTitle}</h1>
       <p className="banner__subheading">{subTitle}</p>

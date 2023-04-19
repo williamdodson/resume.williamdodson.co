@@ -49,17 +49,25 @@ h3 {
   }
 }
 
-.no-bullet {
+/**
+ * This setup fixes an error when Sass compiles and @extend is
+ * used in a media query (source: https: //stackoverflow.com/a/14841491)
+ */
+%no-bullet {
+  @include no-bullet;
+}
+
+/*.no-bullet {
   list-style-type: none;
   margin-left: 0;
 
   & li {
     margin-bottom: 1.5rem;
   }
-}
+}*/
 
 .social-links {
-  @extend .no-bullet;
+  @extend %no-bullet;
   font-size: 0.875rem;
 
   & li {

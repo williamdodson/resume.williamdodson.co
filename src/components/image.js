@@ -1,6 +1,6 @@
 import React from "react"
 import { useStaticQuery, graphql } from "gatsby"
-import Img from "gatsby-image"
+//import childImgSharp from "gatsby-image"
 
 /*
  * This component is built using `gatsby-image` to automatically serve optimized
@@ -22,9 +22,16 @@ const Image = () => {
             ...GatsbyImageSharpFluid
           }
         }
+        extension
+        publicURL
       }
     }
   `)
+
+  // svg support
+  if (!childImageSharp && extension === 'svg') {
+    return <img style={imageStyle} src={publicURL} alt={alt} />
+  }
 
   return <Img fluid={data.placeholderImage.childImageSharp.fluid} />
 }
