@@ -57,14 +57,9 @@ h3 {
   @include no-bullet;
 }
 
-/*.no-bullet {
-  list-style-type: none;
-  margin-left: 0;
-
-  & li {
-    margin-bottom: 1.5rem;
-  }
-}*/
+.no-bullet {
+  @extend %no-bullet;
+}
 
 .social-links {
   @extend %no-bullet;
