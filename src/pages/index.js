@@ -10,7 +10,7 @@ const IndexPage = () => (
     <SEO title="Resume" />
     <section className="resume-section resume-section--profile" id="section-profile" tabIndex="-1" aria-labelledby="heading-section-profile">
       <h2 id="heading-section-profile">Profile</h2>
-      <p>I help the companies that I work with understand the benefits of an accessible, semantically-sound approach to their design and development efforts. I believe that the user experience extends beyond the browser to numerous devices and contexts and that accessible, usable design works everywhere.</p>
+      <p>I help the companies that I work with understand the benefits of an accessible, semantically-sound approach to their design and development efforts. I believe that the user experience extends beyond the browser to numerous devices and contexts and that accessible, inclusive design works everywhere.</p>
     </section>
     <SectionExperience/>
     <SectionEducation />
