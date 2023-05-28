@@ -72,6 +72,11 @@ h3 {
   }
 }
 
+.abbr__in-title,
+abbr[title].abbr__in-title {
+  border-bottom: none;
+}
+
 /// Subsection: Banner
 //  ======================================================================
 .banner__heading {
