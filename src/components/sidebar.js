@@ -8,7 +8,8 @@ const Sidebar = () => (
       <ul className="social-links">
         {SocialLinks.map((data, index) => {
           let link = data.url;
-          let iconName = data.title.toLowerCase();
+          let title = data.title;
+          let iconName = title.toLowerCase();
 
           if(data.title === 'Web') {
             iconName = 'globe';
@@ -24,7 +25,7 @@ const Sidebar = () => (
           return (
             <li key={`content_item_${index}`}>
               <span className="contact-info__title sr-only">{data.title}: </span>
-              <a href={link}>
+              <a href={link} aria-label={title}>
                 <FeatherIcon
                   name={iconName}
                   color="#1C1A17"
