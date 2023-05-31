@@ -5,7 +5,7 @@ html {
 }
 
 body {
-  background: $color-white;
+  background: fixed radial-gradient(circle at top left, #ffffff 0%, $color-white 70%);
   color: $color-black;
   font-family: $font-family;
   line-height: 1.5;
@@ -17,6 +17,7 @@ h3,
 h4,
 h5,
 h6 {
+  color: $color-secondary;
   font-family: $font-family;
 }
 
@@ -84,6 +85,7 @@ abbr[title].abbr__in-title {
 }
 .banner__subheading {
   @include fluid-type($min_width, $max_width, 0.875rem, 1.25rem);
+  color: $color-secondary;
   margin-bottom: 0;
   text-shadow: 0.125rem 0.125rem 0 $color-light-gray;
 }

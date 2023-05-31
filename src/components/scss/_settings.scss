@@ -2,17 +2,39 @@
 //  ======================================================================
 $font-family: 'IBM Plex Sans Condensed', 'Arial Narrow', sans-serif;
 
+/**
+ * Playing with a new color scheme:
+ * primary: #DC1846,
+ * light-primary: #f65b7f,
+ * dark-primary: #9e0f30,
+ * secondary: #1E147C,
+ * light-secondary: #4436bf,
+ * dark-secondary: #140d52,
+ * light-gray: #D7D7DF,
+ * dark-gray: #49495B,
+ * black: #01010C,
+ * white: #E9E8F9
+ */
+
 $colors: (
-  primary: #7A568F,
-  light-primary: #B59CC4,
-  black: #1C1A17,
-  dark-gray: #37332F,
-  light-gray: #e5e3e1,
-  white: #F1F0EF
+  primary: #DC1846,
+  light-primary: #f65b7f,
+  dark-primary: #9e0f30,
+  secondary: #1E147C,
+  light-secondary: #4436bf,
+  dark-secondary: #140d52,
+  light-gray: #D7D7DF,
+  dark-gray: #49495B,
+  black: #01010C,
+  white: #E9E8F9
 );
 
 $color-primary: map-get($colors, primary);
 $color-light-primary: map-get($colors, light-primary);
+$color-dark-primary: map-get($colors, dark-primary);
+$color-secondary: map-get($colors, secondary);
+$color-light-secondary: map-get($colors, light-secondary);
+$color-dark-secondary: map-get($colors, dark-secondary);
 $color-black: map-get($colors, black);
 $color-dark-gray: map-get($colors, dark-gray);
 $color-light-gray: map-get($colors, light-gray);
